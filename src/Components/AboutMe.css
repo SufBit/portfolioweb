@@ -1,0 +1,26 @@
+/* AboutMe.css */
+.about-me {
+    top: 0;
+    right: 0;
+    width: 50%; /* Set width to 50% of the viewport */
+    height: 100vh;
+    background-color: #DA291C;
+    color: white;
+    padding: 20px;
+    z-index: 1000; /* Ensure the About Me section appears above other elements */
+    display: flex; /* Use flexbox */
+    margin-left: auto; /* Move the section to the right */
+    display: block; /* Change display to block */
+  text-align: center; /* Center align the content */
+  margin-left: auto; /* Move the section to the right */
+  }
+
+  .about-me h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: monospace; /* Use monospace font */
+  }
+
+  .about-me p {
+    font-size: 18px; /* Adjust the font size for the description */
+    margin-top: 10px; /* Add some spacing between the heading and description */
+  }

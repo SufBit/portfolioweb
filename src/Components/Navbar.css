@@ -1,0 +1,62 @@
+.navbar {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: monospace; 
+  }
+
+  .navbar-right{
+    padding-right: 50px;
+    font-size: larger;
+  }
+  
+  .navbar-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-right ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar-right ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-right ul li a {
+    text-decoration: none;
+    color: rgb(14, 1, 1);
+    padding: 10px 15px; /* Adjust padding to create the bubble effect */
+    background-color: transparent; /* Make background transparent initially */
+    border: 2px solid transparent; /* Make border transparent initially */
+    border-radius: 20px; /* Add border radius to create the bubble effect */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+    font-weight: bold;
+  }
+
+  .navbar-right ul li a:hover {
+    background-color: #c6bfbf; /* Change background color to a darker shade of red when hovered over */
+  }
+  
+  .name {
+    color: black;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    padding-left: 50px;
+  }
+  
+  /* Navbar.css */
+.logo-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
