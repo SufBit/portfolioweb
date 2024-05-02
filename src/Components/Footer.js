@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin } from 'react-icons/fa'; // Import LinkedIn icon from react-icons library
+import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Import LinkedIn icon from react-icons library
 import './Footer.css';
 
 const Footer = () => {
@@ -10,6 +10,9 @@ const Footer = () => {
           {/* LinkedIn icon with link to your LinkedIn profile */}
           <a href="https://www.linkedin.com/in/sufyan-arshad99/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={24} />
+          </a>
+          <a href="https://github.com/SufBit" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={24} />
           </a>
         </div>
         <div className="website-info">
