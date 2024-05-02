@@ -13,7 +13,7 @@ const NavigationBar = () => {
         <span className="name">Sufyan Arshad</span>
       </div>
       <div className="navbar-center logo-container">
-        <img src="/a-line.png" alt="Logo" className="logo" />
+        <img src="./portfolioweb/a-line.png" alt="Logo" className="logo" />
       </div>
       <div className="navbar-right">
         <ul>
