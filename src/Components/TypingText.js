@@ -46,7 +46,7 @@ const TypingText = () => {
         fontSize: '24px', // Adjust font size as needed
       }}>
         <div style={{ color: 'black' }}>I am a</div>
-        <div style={{ color: 'red', fontWeight: 'bold',}}>{displayText}</div>
+        <div style={{ color: '#DA291C', fontWeight: 'bold',}}>{displayText}</div>
       </div>
 
     );
