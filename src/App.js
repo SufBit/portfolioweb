@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar'; // Importing the Navbar component
 import AboutMe from './Components/AboutMe';
 import TypingText from './Components/TypingText';
 import Projects from './Components/projects';
+import Skills from './Components/Skills';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -17,8 +19,10 @@ function App() {
             <AboutMe />
           </div>
           <Projects />
+          <Skills />
         </div>
       </Router>
+      <Footer />
     </div>
   );
 }

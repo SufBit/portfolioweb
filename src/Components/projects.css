@@ -33,5 +33,5 @@
 .project-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the image fills the box while maintaining aspect ratio */
+  object-fit: contain; /* Ensure the image fills the box while maintaining aspect ratio */
 }

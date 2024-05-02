@@ -1,0 +1,34 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .linkedin-icon {
+    margin-bottom: 10px;
+    font-size: 50px !important;
+  }
+  
+  /* Style for LinkedIn icon */
+  .linkedin-icon a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Add transition for smooth hover effect */
+  }
+
+  .linkedin-icon a:hover {
+    color: #0e76a8; /* Change color on hover */
+  }
+  
+  /* Style for text */
+  .website-info {
+    font-size: 14px;
+  }
+  
