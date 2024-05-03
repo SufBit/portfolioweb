@@ -60,4 +60,23 @@
     width: 100px; /* Adjust the width as needed */
     height: auto;
   }
+
+  @media (max-width: 600px) {
+    .navbar-right ul {
+      flex-direction: column; /* Make the list vertical */
+    }
+  
+    .navbar-right ul li {
+      margin-left: 10px; /* Remove the left margin */
+      margin-bottom: 10px; /* Add a bottom margin */
+    }
+  
+    .logo-container {
+      margin-left: 20px; /* Reduce the left margin */
+    }
+  
+    .logo {
+      width: 50px; /* Reduce the logo size */
+    }
+  }
   
