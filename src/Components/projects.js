@@ -18,6 +18,12 @@ const Projects = () => {
         <p>Mastodon Client</p> {/* Description for Project 2 */}
       </div>
       {/* Add more project boxes as needed */}
+      <div className="project-box">
+        <a href="https://sufbit.github.io/SketchSite/" target="_blank" rel="noopener noreferrer">
+          <img src="../portfolioweb/sketch.png" alt="Project 3" className="project-image" />
+        </a>
+        <p>Sketch</p> {/* Description for Project 2 */}
+      </div>
     </div>
   );
 };
