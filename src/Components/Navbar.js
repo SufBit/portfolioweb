@@ -19,7 +19,7 @@ const NavigationBar = () => {
         <ul>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="../portfolioweb/SufyanResume24.pdf" target="_blank">Resume</a></li>
+          <li><a href="../portfolioweb/SufyanArshadResume.pdf" target="_blank">Resume</a></li>
         </ul>
       </div>
     </nav>

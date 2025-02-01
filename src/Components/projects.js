@@ -24,6 +24,12 @@ const Projects = () => {
         </a>
         <p>Sketch</p> {/* Description for Project 2 */}
       </div>
+      <div className="project-box">
+        <a href="https://notes-taker-orbx.onrender.com" target="_blank" rel="noopener noreferrer">
+          <img src="../portfolioweb/NotesT.png" alt="Project 4" className="project-image" />
+        </a>
+        <p>Note-Take</p> {/* Description for Project 2 */}
+      </div>   
     </div>
   );
 };
